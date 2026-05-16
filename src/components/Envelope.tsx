@@ -91,7 +91,7 @@
 
 //         {/* FLAP: The top triangle that flips up */}
 //         <div 
-//           className="absolute inset-0 bg-cover bg-center origin-top transition-transform duration-[1000ms] ease-in-out z-20"
+//           className="absolute inset-0 bg-cover bg-center origin-top transition-transform  ease-in-out z-20"
 //           style={{ 
 //             backgroundImage: "url('/src/components/env.png')",
 //             clipPath: "polygon(0 0, 100% 0, 50% 50%)",
@@ -160,7 +160,7 @@ const Envelope = ({ onOpen }) => {
   return (
     /* 1. The main container is the full-screen background */
     <div 
-      className="fixed inset-0 z-30 flex items-center justify-center bg-cover bg-center transition-all duration-1000 ease-in-out"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-cover bg-center transition-all duration-1000 ease-in-out"
       style={{ 
         backgroundImage: `url(${introPoster})`,
       }}
