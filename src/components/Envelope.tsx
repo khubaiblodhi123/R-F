@@ -135,16 +135,25 @@
 
 // export default Envelope;
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import introVideo from "./ff047453-c122-4937-a30e-239c201da014-intro.mp4";
 import introPoster from "./PP.png";
 
 const Envelope = ({ onOpen }) => {
   const [isOpening, setIsOpening] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+  // 1. PRELOADER: Forces the browser to download the background image first
+  useEffect(() => {
+    const img = new Image();
+    img.src = introPoster;
+    img.onload = () => {
+      setIsImageLoaded(true);
+    };
+  }, []);
 
   const handleSealClick = () => {
-    if (isOpening) return;
+    if (isOpening || !isImageLoaded) return;
     setIsOpening(true);
 
     // Reveal video shortly after the envelope fades
@@ -160,16 +169,22 @@ const Envelope = ({ onOpen }) => {
   return (
     /* 1. The main container is the full-screen background */
     <div 
-      className="fixed inset-0 z-50 flex items-center justify-center bg-cover bg-center transition-all duration-1000 ease-in-out"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-[#c3cfaa] bg-cover bg-center transition-all duration-1000 ease-in-out cursor-pointer"
       style={{ 
-        backgroundImage: `url(${introPoster})`,
+        backgroundImage: isImageLoaded ? `url(${introPoster})` : "none",
       }}
       onClick={handleSealClick}
     >
+      {/* Optional: Simple temporary placeholder phrase while image finishes downloading */}
+      {!isImageLoaded && (
+        <div className="text-[#5e5a4a] font-display animate-pulse text-sm tracking-[0.3em] uppercase">
+          Loading Invitation...
+        </div>
+      )}
       {/* 2. Content overlay that fades/slides out when opened */}
       <div 
         className={`relative flex flex-col items-center justify-center w-full h-full transition-opacity duration-1000 ${
-          isOpening ? "opacity-0 pointer-events-none" : "opacity-100"
+          isOpening || !isImageLoaded ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
       >
         
@@ -194,7 +209,7 @@ const Envelope = ({ onOpen }) => {
 
       {/* 5. Full-screen intro video overlay */}
       {showVideo && (
-        <div className="absolute inset-0 z-40 bg-black">
+        <div className="absolute inset-0 z-50 bg-black">
           <video
             src={introVideo}
             poster={introPoster}
