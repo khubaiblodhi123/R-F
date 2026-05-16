@@ -15,6 +15,9 @@ const LocationSection = () => {
         <h2 className="font-display text-3xl sm:text-4xl text-foreground mb-8">
           The Imperial Marquees
         </h2>
+        <p className="font-script text-2xl sm:text-3xl text-accent mt-1">
+          Hall B
+        </p>
 
         <div className="space-y-4 mb-8">
           <div className="flex items-center justify-center gap-3 text-foreground/80">
