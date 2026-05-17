@@ -67,7 +67,7 @@ const HeroSection = () => {
         <h1 className="font-script text-4xl sm:text-6xl md:text-6xl text-foreground mb-1">
           Faisal Alam
         </h1>
-        <p className="font-script text-2xl sm:text-2xl md:text-2xl text-foreground mb0">S/O Mr. & Mrs. Muzaffar Alam (Late)</p>
+        <p className="font-serif italic text-sm sm:text-base text-muted-foreground/90 leading-relaxed max-w-xs sm:max-w-sm">S/O Mr. Muzaffar Alam (Late)</p>
 
         <div className="flex items-center justify-center gap9 my0">
           <span className="h-px w-12 bg-accent" />
