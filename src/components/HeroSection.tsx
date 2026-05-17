@@ -74,28 +74,19 @@ const HeroSection = () => {
         </div>
       </div> */}
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 animate-bounce">
-        <div className="flex flex-col items-center gap-3">
+      <div className="absolute bottom-8 left-[42%] -translate-x-1/2 z-30 animate-bounce">
+        <div className="flex flex-col items-center gap-2">
 
           {/* Scroll Text */}
-          {/* <span className="text-sm sm:text-base tracking-[0.35em] uppercase text-white font-semibold drop-shadow-lg animate-pulse">
-            Scroll Down
-          </span> */}
-          <span className="text-sm sm:text-base tracking-[0.35em] uppercase text-gray-700 font-semibold drop-shadow-lg animate-pulse">
+          <span className="font-display text-[11px] sm:text-xs tracking-[0.45em] uppercase text-black/55">
             Scroll Down
           </span>
 
-          {/* Circle Button */}
-          <div className="relative flex items-center justify-center">
-            
-            {/* Glow Effect */}
-            <div className="absolute inset-0 rounded-full bg-black/40 blur-xl animate-pulse" />
-
-            {/* Main Circle */}
-            <div className="relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-white/30 bg-black/70 backdrop-blur-md shadow-2xl">
-              <ChevronDown className="w-7 h-7 text-white animate-pulse" />
-            </div>
+          {/* Elegant Circle */}
+          <div className="flex items-center justify-center w-12 h-12 rounded-full border border-black/20 bg-black/55 backdrop-blur-sm shadow-xl">
+            <ChevronDown className="w-5 h-5 text-white/90" />
           </div>
+
         </div>
       </div>
 
