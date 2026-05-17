@@ -37,18 +37,39 @@ const HeroSection = () => {
           بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
         </div> */}
 
-        <div className="text-4xl sm:text-5xl text-accent/100 font-serif -mt-20 mb-20 antialiased select-none tracking-wide">
+        <div className="text-4xl sm:text-5xl text-accent/100 font-serif -mt-10 mb-10 antialiased select-none tracking-wide">
           بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
         </div>
-        <p className="font-display text-sm sm:text-base tracking-[0.4em] uppercase text-muted-foreground mb-6">
-          We Are Getting Married
+        {/* <p className="font-display text-sm sm:text-base tracking-[0.4em] uppercase text-muted-foreground mb-6">
+          Mr. & Mrs. Ishtiaq Lodhi
         </p>
+        <p>
+          Request the honour of your presence at the Wedding reception of their Daughter,
+        </p> */}
+        <div className="flex flex-col items-center text-center max-w-md mx-auto my-6 px-4 select-none">
+        {/* أسماء الوالدين بتنسيق عالي التباعد وأنيق */}
+        <p className="font-display text-sm sm:text-base tracking-[0.35em] uppercase text-accent font-medium mb-3">
+          Mr. & Mrs. Ishtiaq Lodhi
+        </p>
+        
+        {/* عبارة طلب الحضور بخط سيريف مائل ومنساب */}
+        <p className="font-serif italic text-sm sm:text-base text-muted-foreground/90 leading-relaxed max-w-xs sm:max-w-sm">
+          Request the honour of your presence at the Wedding reception of their Daughter,
+        </p>
+      </div>
 
-        <h1 className="font-script text-5xl sm:text-7xl md:text-8xl text-foreground mb-4">
-          Rubab & Faisal
+        <h1 className="font-script text-4xl sm:text-6xl md:text-6xl text-foreground mb-1">
+          Rubab Lodhi
         </h1>
+        <h1 className="font-script text-4xl sm:text-7xl md:text-4xl text-foreground mb-1">
+          &
+        </h1>
+        <h1 className="font-script text-4xl sm:text-6xl md:text-6xl text-foreground mb-1">
+          Faisal Alam
+        </h1>
+        <p className="font-script text-2xl sm:text-2xl md:text-2xl text-foreground mb0">S/O Mr. & Mrs. Muzaffar Alam (Late)</p>
 
-        <div className="flex items-center justify-center gap-4 my-8">
+        <div className="flex items-center justify-center gap9 my0">
           <span className="h-px w-12 bg-accent" />
           <span className="font-display text-accent text-sm tracking-[0.3em]">✦</span>
           <span className="h-px w-12 bg-accent" />
@@ -57,6 +78,9 @@ const HeroSection = () => {
         {/* <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
           Saturday
         </p> */}
+        <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/50">
+          INSHALLAH
+        </p>
         <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
           Saturday · August 22, 2026
         </p>

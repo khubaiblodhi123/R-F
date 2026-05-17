@@ -4,9 +4,10 @@ import { PhoneCall, User2 } from "lucide-react";
 
 const hosts = [
   { name: "M.Ishtiaq Lodhi", phone: "+923343996855" },
+  { name: "M.Shahid Lodhi", phone: "+923333965894" },
+  { name: "M.Afaq Lodhi", phone: "+923302884032" },
   { name: "M.Khubaib Lodhi", phone: "+923308972826" },
   { name: "M.Shoaib Lodhi", phone: "+923342303426" },
-  // { name: "M.Shahid Lodhi", phone: "+923333965894" },
   // { name: "M.Abid Lodhi", phone: "+923332373386" },
   // { phone: "+923112993737" },
   // { name: "M.Yousuf Lodhi", phone: "+923112993737" },
