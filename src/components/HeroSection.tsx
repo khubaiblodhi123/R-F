@@ -19,6 +19,10 @@ const HeroSection = () => {
       <BotanicalCorner className="absolute bottom-4 right-4 w-20 sm:w-28 text-primary rotate-180" />
 
       {/* Content */}
+      {/* Elegant Bismillah Heading */}
+      <div className="text-2xl sm:text-3xl text-accent/90 font-serif mb-6 antialiased select-none">
+        بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+      </div>
       <div className="relative z-10 text-center px-6 py-20">
         <p className="font-display text-sm sm:text-base tracking-[0.4em] uppercase text-muted-foreground mb-6">
           We Are Getting Married
