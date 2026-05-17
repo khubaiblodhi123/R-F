@@ -12,12 +12,20 @@ const LocationSection = () => {
         <p className="font-display text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
           Where We Celebrate
         </p>
-        <h2 className="font-display text-3xl sm:text-4xl text-foreground mb-8">
+        {/* <h2 className="font-display text-3xl sm:text-4xl text-foreground mb-8">
           The Imperial Marquees
         </h2>
         <p className="font-script text-2xl sm:text-3xl text-accent mt-1">
           Hall B
-        </p>
+        </p> */}
+        <div className="mb-7">
+          <h2 className="font-display text-3xl sm:text-4xl text-foreground tracking-wide">
+            The Imperial Marquees
+          </h2>
+          <p className="font-script text-2xl sm:text-2xl text-accent mt-1 opacity-90">
+            Hall B
+          </p>
+        </div>
 
         <div className="space-y-4 mb-8">
           <div className="flex items-center justify-center gap-3 text-foreground/80">

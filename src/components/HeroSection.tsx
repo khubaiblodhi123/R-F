@@ -20,10 +20,21 @@ const HeroSection = () => {
 
       {/* Content */}
       {/* Elegant Bismillah Heading */}
-      <div className="text-2xl sm:text-3xl text-accent/90 font-serif mb-6 antialiased select-none">
+      {/* <div className="text-2xl sm:text-3xl text-accent/90 font-serif mb-6 antialiased select-none">
         بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-      </div>
+      </div> */}
       <div className="relative z-10 text-center px-6 py-20">
+        {/* Elegant Bismillah Heading */}
+        {/* <div className="text-3xl sm:text-4xl text-accent/100 font-serif mb-7 antialiased select-none">
+          بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </div> */}
+        {/* <div className="text-3xl sm:text-4xl text-accent/100 font-serif mb-8 antialiased select-none">
+          بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </div> */}
+        {/* البسملة في المكان المحدد بالدائرة السوداء */}
+        <div className="text-4xl sm:text-5xl text-accent/100 font-serif mb-6 antialiased select-none tracking-wide">
+          بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </div>
         <p className="font-display text-sm sm:text-base tracking-[0.4em] uppercase text-muted-foreground mb-6">
           We Are Getting Married
         </p>
@@ -38,8 +49,11 @@ const HeroSection = () => {
           <span className="h-px w-12 bg-accent" />
         </div>
 
+        {/* <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
+          Saturday
+        </p> */}
         <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
-          August 22, 2026
+          Saturday · August 22, 2026
         </p>
         <p className="font-body text-base text-muted-foreground mt-2">
           Karachi · Pakistan
