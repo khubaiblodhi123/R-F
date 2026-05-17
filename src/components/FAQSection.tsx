@@ -46,14 +46,17 @@ const FAQSection = () => {
           <p className="font-display text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">
             Honoured to Host You
           </p>
-          <h4 className="font-display text-3xl sm:text-4xl text-foreground">
+          <h4 className="font-display text-3xl sm:text-4xl text-foreground mb-7">
             Awaiting to Welcome
           </h4>
-          <div className="mt-8 grid gap-3">
+          <p className="font-display text-2xl sm:text-1.5xl text-foreground">
+            All Family Members
+          </p>
+          <div className="mt-5 flex flex-col items-center gap-3">
             {hosts.map((host) => (
               <div
                 // key={host.name}
-                className="flex items-center justify-between gap-2 rounded-lg border border-accent/20 bg-background/80 px-3 py-3 shadow-sm"
+                className="inline-flex items-center gap-2 rounded-lg border border-accent/20 bg-background/80 px-4 py-3 shadow-sm w-fit"
               >
                 {/* <div className="flex items-center gap-2">
                   <User2 className="w-4 h-4 text-accent" />
