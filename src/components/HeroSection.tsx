@@ -74,7 +74,7 @@ const HeroSection = () => {
         </div>
       </div> */}
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-[42%] -translate-x-1/2 z-30 animate-bounce">
+      <div className="absolute bottom-8 left-[40%] -translate-x-1/2 z-30 animate-bounce">
         <div className="flex flex-col items-center gap-2">
 
           {/* Scroll Text */}
