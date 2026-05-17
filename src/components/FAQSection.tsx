@@ -5,10 +5,11 @@ import { PhoneCall, User2 } from "lucide-react";
 const hosts = [
   { name: "M.Ishtiaq Lodhi", phone: "+923343996855" },
   { name: "M.Shahid Lodhi", phone: "+923333965894" },
+  { name: "M.Abid Lodhi", phone: "+923332373386" },
+  { phone: "+923112993737" },
   { name: "M.Yousuf Lodhi", phone: "+923112993737" },
   { name: "M.Khubaib Lodhi", phone: "+923308972826" },
   { name: "M.Shoaib Lodhi", phone: "+923342303426" },
-  { name: "M.Abdullah Lodhi", phone: "+923192034538" },
 ];
 
 // import { Bus, PawPrint, Baby } from "lucide-react";
@@ -51,15 +52,15 @@ const FAQSection = () => {
           <div className="mt-8 grid gap-3">
             {hosts.map((host) => (
               <div
-                key={host.name}
-                className="flex items-center justify-between gap-8 rounded-lg border border-accent/20 bg-background/80 px-4 py-3 shadow-sm"
+                // key={host.name}
+                className="flex items-center justify-between gap-2 rounded-lg border border-accent/20 bg-background/80 px-3 py-3 shadow-sm"
               >
-                <div className="flex items-center gap-2">
+                {/* <div className="flex items-center gap-2">
                   <User2 className="w-4 h-4 text-accent" />
                   <span className="font-body text-sm text-foreground">
-                    {host.name}
-                  </span>
-                </div>
+                    {/* {host.name} */}
+                  {/* </span>
+                </div> */} 
                 <a
                   href={`tel:${host.phone}`}
                   className="flex items-center gap-2 text-sm font-mono text-accent hover:underline"
