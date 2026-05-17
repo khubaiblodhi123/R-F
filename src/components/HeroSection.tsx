@@ -54,7 +54,7 @@ const HeroSection = () => {
         
         {/* عبارة طلب الحضور بخط سيريف مائل ومنساب */}
         <p className="font-serif italic text-sm sm:text-base text-muted-foreground/90 leading-relaxed max-w-xs sm:max-w-sm">
-          Request the honour of your presence at the Wedding reception of their Daughter,
+          Request the honour of your presence at the Wedding ceremony of their beloved daughter,
         </p>
       </div>
 
@@ -62,12 +62,12 @@ const HeroSection = () => {
           Rubab Lodhi
         </h1>
         <h1 className="font-script text-4xl sm:text-7xl md:text-4xl text-foreground mb-1">
-          &
+          With
         </h1>
         <h1 className="font-script text-4xl sm:text-6xl md:text-6xl text-foreground mb-1">
           Faisal Alam
         </h1>
-        <p className="font-serif italic text-sm sm:text-base text-muted-foreground/90 leading-relaxed max-w-xs sm:max-w-sm">S/O Mr. Muzaffar Alam (Late)</p>
+        <p className="font-serif italic text-sm sm:text-base text-muted-foreground/90 leading-relaxed max-w-xs sm:max-w-sm">S/O Muzaffar Alam (Late)</p>
 
         <div className="flex items-center justify-center gap9 my0">
           <span className="h-px w-12 bg-accent" />
