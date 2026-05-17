@@ -90,7 +90,7 @@ const HeroSection = () => {
         </div>
       </div> */}
       {/* Scroll Indicator */}
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator
       <button
         onClick={() => {
           window.scrollTo({
@@ -103,7 +103,31 @@ const HeroSection = () => {
         <div className="flex flex-col items-center gap-2 cursor-pointer group">
 
           {/* Scroll Text */}
-          <span className="font-display text-[11px] sm:text-xs tracking-[0.45em] uppercase text-black/55 transition-all duration-300 group-hover:text-black">
+          {/* <span className="font-display text-[11px] sm:text-xs tracking-[0.45em] uppercase text-black/55 transition-all duration-300 group-hover:text-black">
+            Scroll Down
+          </span>
+
+          {/* Elegant Circle */}
+          {/* <div className="flex items-center justify-center w-12 h-12 rounded-full border border-black/20 bg-black/55 backdrop-blur-sm shadow-xl transition-all duration-300 group-hover:scale-110 group-hover:bg-black/75">
+            <ChevronDown className="w-5 h-5 text-white/90" />
+          </div>
+
+        </div>
+      </button> */} 
+      {/* Scroll Indicator */}
+      <button
+        onClick={() => {
+          window.scrollTo({
+            top: window.innerHeight,
+            behavior: "smooth",
+          });
+        }}
+        className="absolute bottom-6 inset-x-0 mx-auto w-fit z-30 animate-bounce"
+      >
+        <div className="flex flex-col items-center gap-2 cursor-pointer group">
+
+          {/* Scroll Text */}
+          <span className="font-display text-[11px] sm:text-xs tracking-[0.45em] uppercase text-black/55 transition-all duration-300 group-hover:text-black text-center">
             Scroll Down
           </span>
 
