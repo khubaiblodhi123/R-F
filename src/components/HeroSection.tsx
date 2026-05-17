@@ -33,7 +33,11 @@ const HeroSection = () => {
           بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
         </div> */}
         {/* البسملة في المكان المحدد بالدائرة السوداء */}
-        <div className="text-4xl sm:text-5xl text-accent/100 font-serif mb-6 antialiased select-none tracking-wide">
+        {/* <div className="text-4xl sm:text-5xl text-accent/100 font-serif mb-6 antialiased select-none tracking-wide">
+          بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+        </div> */}
+
+        <div className="text-4xl sm:text-5xl text-accent/100 font-serif -mt-20 mb-20 antialiased select-none tracking-wide">
           بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
         </div>
         <p className="font-display text-sm sm:text-base tracking-[0.4em] uppercase text-muted-foreground mb-6">
