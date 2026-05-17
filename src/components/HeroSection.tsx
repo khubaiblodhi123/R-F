@@ -90,6 +90,7 @@ const HeroSection = () => {
         </div>
       </div> */}
       {/* Scroll Indicator */}
+      {/* Scroll Indicator */}
       <button
         onClick={() => {
           window.scrollTo({
@@ -97,7 +98,7 @@ const HeroSection = () => {
             behavior: "smooth",
           });
         }}
-        className="absolute bottom-8 left-[40%] -translate-x-1/2 z-30 animate-bounce"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 animate-bounce"
       >
         <div className="flex flex-col items-center gap-2 cursor-pointer group">
 
