@@ -61,7 +61,7 @@ const HeroSection = () => {
         <h1 className="font-script text-4xl sm:text-6xl md:text-6xl text-foreground mb-1">
           Rubab Lodhi
         </h1>
-        <h1 className="font-script text-3xl sm:text-4xl md:text-3xl text-foreground mb-1">
+        <h1 className="font-script text-2xl sm:text-3xl md:text-2xl text-foreground mb-1">
           With
         </h1>
         <h1 className="font-script text-4xl sm:text-6xl md:text-6xl text-foreground mb-1">
