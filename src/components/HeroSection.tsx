@@ -78,7 +78,7 @@ const HeroSection = () => {
         {/* <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
           Saturday
         </p> */}
-        <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/50">
+        <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
           INSHA ALLAH
         </p>
         <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
