@@ -79,12 +79,12 @@ const HeroSection = () => {
           Saturday
         </p> */}
         <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/50">
-          INSHALLAH
+          INSHA ALLAH
         </p>
         <p className="font-display text-lg sm:text-xl tracking-[0.2em] text-foreground/80">
           Saturday · August 22, 2026
         </p>
-        <p className="font-body text-base text-muted-foreground mt-2">
+        <p className="font-body text-base text-foreground/80 mt-2">
           Karachi · Pakistan
         </p>
       </div>
